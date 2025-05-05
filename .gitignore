@@ -1,0 +1,32 @@
+# Ignorar o ambiente virtual
+.venv/
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Ignorar arquivos temporários e de backup
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de compilação
+*.class
+*.jar
+
+# Ignorar configurações de IDEs
+.idea/
+*.iml
+
+# Arquivos de pacotes (caso esteja usando)
+dist/
+build/
+*.egg-info/
